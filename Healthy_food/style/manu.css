@@ -1,0 +1,144 @@
+.menus {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content; }
+  .menus .menu_text h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #DC780B;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center; }
+  .menus .menu_text h2 {
+    font-family: Philosopher;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center; }
+  .menus .menu_text p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center; }
+  .menus .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .menus .row div .card .card-img-top {
+      border-radius: 40px 0px; }
+    .menus .row div .card .card-body .card-body-header {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .menus .row div .card .card-body .card-body-header b {
+        font-family: Philosopher;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left; }
+    .menus .row div .card .card-body .card-body-footer {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .menus .row div .card .card-body .card-body-footer a {
+        background-color: #DC780B;
+        border: none;
+        font-size: 20px; }
+      .menus .row div .card .card-body .card-body-footer .stars {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+        .menus .row div .card .card-body .card-body-footer .stars span {
+          color: #DC780B; }
+      .menus .row div .card .card-body .card-body-footer .star {
+        font-size: 30px;
+        cursor: pointer; }
+  .menus .text-center {
+    margin-top: 40px; }
+    .menus .text-center a {
+      height: 42px !important;
+      border: 1px solid #DC780B;
+      border-radius: 5px;
+      opacity: 0.1px;
+      width: 150px !important;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      color: #DC780B;
+      padding-top: 10px; }
+
+@media screen and (max-width: 992px) {
+  .menus {
+    margin-top: 600px;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important; }
+    .menus .row div .card {
+      margin-top: 20px;
+      width: 100% !important; }
+      .menus .row div .card .card-body .card-body-footer .stars {
+        max-height: 40px; }
+        .menus .row div .card .card-body .card-body-footer .stars .star {
+          font-size: 20px; } }

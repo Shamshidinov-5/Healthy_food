@@ -1,0 +1,147 @@
+.testimonial {
+  margin-top: 150px; }
+  .testimonial .row {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+    .testimonial .row:first-child div {
+      height: 200px !important; }
+    .testimonial .row div {
+      height: 450px !important; }
+      .testimonial .row div h4 {
+        color: #DC780B;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-align: center; }
+      .testimonial .row div h2 {
+        margin-top: 40px;
+        font-family: Philosopher;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center; }
+      .testimonial .row div p {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 40px; }
+      .testimonial .row div .carousel .carousel-item img {
+        width: 140px !important;
+        height: 140px !important;
+        border-radius: 100%; }
+      .testimonial .row div .carousel .carousel-item p {
+        width: 100%;
+        text-align: center; }
+      .testimonial .row div .carousel .carousel-item .stars {
+        height: 80px !important; }
+        .testimonial .row div .carousel .carousel-item .stars .star {
+          color: #DC780B;
+          font-size: 24px !important; }
+          .testimonial .row div .carousel .carousel-item .stars .star:last-child {
+            color: #C4C4C4 !important; }
+      .testimonial .row div .carousel .carousel-item b {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center; }
+      .testimonial .row div .carousel .carousel-item small {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em; }
+      .testimonial .row div .carousel .carousel-control-prev .carousel-control-prev-icon {
+        color: #000;
+        background-color: #DC780B;
+        border-radius: 100%; }
+      .testimonial .row div .carousel .carousel-control-next .carousel-control-next-icon {
+        color: #000;
+        background-color: #DC780B;
+        border-radius: 100%; }
+
+@media screen and (max-width: 768px) {
+  .testimonial {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important; }
+    .testimonial .row {
+      margin-top: 30px !important;
+      width: 100% !important;
+      height: 400px;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important; }
+      .testimonial .row .col-8 {
+        width: 100% !important;
+        margin-left: 5% !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .testimonial .row .col-8 h4 {
+          font-size: 12px !important; }
+        .testimonial .row .col-8 h2 {
+          font-size: 27px; }
+        .testimonial .row .col-8 p {
+          font-size: 14px; }
+        .testimonial .row .col-8 .carousel {
+          width: 100% !important;
+          height: 100% !important; } }

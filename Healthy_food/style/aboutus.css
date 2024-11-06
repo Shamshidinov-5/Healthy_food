@@ -1,0 +1,100 @@
+.main_aboutus {
+  height: 580px; }
+  .main_aboutus .row {
+    height: 100%; }
+    .main_aboutus .row div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: start;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 100%; }
+      .main_aboutus .row div img {
+        width: 80%;
+        height: 80%; }
+      .main_aboutus .row div h4 {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #DC780B; }
+      .main_aboutus .row div h2 {
+        font-family: Philosopher;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: left; }
+      .main_aboutus .row div p {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left; }
+      .main_aboutus .row div button {
+        width: 142px;
+        height: 42px;
+        border-radius: 5px;
+        border: none;
+        background-color: #DC780B;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff; }
+
+@media screen and (max-width: 768px) {
+  .main_aboutus {
+    margin-top: 150px; }
+    .main_aboutus .row div h4 {
+      font-size: 16px;
+      text-align: center;
+      width: 100%; }
+    .main_aboutus .row div h2 {
+      width: 100%;
+      font-size: 31px;
+      text-align: center; }
+    .main_aboutus .row div p {
+      width: 100%;
+      text-align: center;
+      font-size: 16px; }
+    .main_aboutus .row div button {
+      font-size: 16px;
+      text-align: center;
+      margin-left: 37%; } }
+
+@media screen and (max-width: 576px) {
+  .main_aboutus .row div img {
+    height: 70%; } }
+
+@media screen and (max-width: 480px) {
+  .main_aboutus .row div img {
+    height: 50%; }
+  .main_aboutus .row h4 {
+    font-size: 12px !important; }
+  .main_aboutus .row h2 {
+    font-size: 20px !important; }
+  .main_aboutus .row p {
+    font-size: 12px !important; } }
